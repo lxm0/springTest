@@ -1,8 +1,0 @@
-2019-05-31-11:04:20,619 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
-2019-05-31-11:04:21,016 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE concat(concat('%',?),'%') 
-2019-05-31-11:04:21,050 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - ==> Parameters: test(String)
-2019-05-31-11:04:21,103 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - <==      Total: 1
-2019-05-31-11:09:49,319 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
-2019-05-31-11:09:49,801 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE concat(concat('%',?),'%') 
-2019-05-31-11:09:49,855 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - ==> Parameters: test(String)
-2019-05-31-11:09:49,884 [main]  [com.njupt.mapper.GroupMapper.selectByname] [DEBUG] - <==      Total: 1

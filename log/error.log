@@ -1,7 +1,0 @@
-[main]  [org.junit.Test] [ERROR] - / by zero
-[main]  [org.junit.Test] [INFO] - 这是调试信息
-[main]  [com.njupt.GroupMapper.select] [DEBUG] - ==>  Preparing: select * from user_inf where id = ? 
-[main]  [com.njupt.GroupMapper.select] [DEBUG] - ==> Parameters: 1(Integer)
-[main]  [com.njupt.GroupMapper.select] [DEBUG] - <==      Total: 1
-[main]  [org.junit.Test] [ERROR] - / by zero
-[main]  [org.junit.Test] [ERROR] - / by zero

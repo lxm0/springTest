@@ -1,6 +1,0 @@
-2019-05-21-14:25:49,134 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
-2019-05-21-14:25:49,260 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
-2019-05-21-14:25:49,414 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1
-2019-05-21-14:32:46,713 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
-2019-05-21-14:32:46,756 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
-2019-05-21-14:32:46,822 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1

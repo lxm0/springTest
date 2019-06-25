@@ -1,9 +1,0 @@
-2019-06-25-14:47:45,497 [main]  [org.apache.activemq.broker.BrokerService] [INFO] - Using Persistence Adapter: KahaDBPersistenceAdapter[F:\Java\test\SpringTest\activemq-data\localhost\KahaDB]
-2019-06-25-14:47:46,331 [JMX connector]  [org.apache.activemq.broker.jmx.ManagementContext] [INFO] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
-2019-06-25-14:47:47,827 [main]  [org.apache.activemq.store.kahadb.plist.PListStoreImpl] [INFO] - PListStore:[F:\Java\test\SpringTest\activemq-data\localhost\tmp_storage] started
-2019-06-25-14:47:48,044 [main]  [org.apache.activemq.broker.BrokerService] [INFO] - Apache ActiveMQ 5.15.9 (localhost, ID:DESKTOP-9IEFAR4-58492-1561445267877-0:1) is starting
-2019-06-25-14:47:48,056 [main]  [org.apache.activemq.transport.TransportServerThreadSupport] [INFO] - Listening for connections at: tcp://127.0.0.1:61616
-2019-06-25-14:47:48,056 [main]  [org.apache.activemq.broker.TransportConnector] [INFO] - Connector tcp://127.0.0.1:61616 started
-2019-06-25-14:47:48,057 [main]  [org.apache.activemq.broker.BrokerService] [INFO] - Apache ActiveMQ 5.15.9 (localhost, ID:DESKTOP-9IEFAR4-58492-1561445267877-0:1) started
-2019-06-25-14:47:48,057 [main]  [org.apache.activemq.broker.BrokerService] [INFO] - For help or more information please see: http://activemq.apache.org
-2019-06-25-14:47:48,061 [main]  [org.apache.activemq.broker.BrokerService] [WARN] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: F:\Java\test\SpringTest\activemq-data\localhost\KahaDB only has 54821 mb of usable space. - resetting to maximum available disk space: 54821 mb
