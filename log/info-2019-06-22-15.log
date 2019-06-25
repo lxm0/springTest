@@ -1,0 +1,2 @@
+2019-06-22-15:50:13,064 [main]  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [DEBUG] - Loaded 7 bean definitions from location pattern [file:/F:/Java/test/SpringTest/target/classes/spring/*-aop.xml]
+2019-06-22-15:50:13,077 [main]  [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader] [DEBUG] - Imported 7 bean definitions from relative location [*-aop.xml]

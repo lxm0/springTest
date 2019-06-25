@@ -1,0 +1,18 @@
+2019-05-21-16:21:29,855 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
+2019-05-21-16:21:30,239 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-21-16:21:30,289 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-21-16:21:30,393 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1
+2019-05-21-16:21:30,395 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
+2019-05-21-16:22:45,128 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
+2019-05-21-16:22:45,846 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-21-16:22:45,894 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-21-16:22:45,941 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1
+2019-05-21-16:22:45,942 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
+2019-05-21-16:22:45,957 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-21-16:22:45,957 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-21-16:22:45,987 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1
+2019-05-21-16:23:24,593 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.0
+2019-05-21-16:23:24,986 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-21-16:23:25,037 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-21-16:23:25,080 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1
+2019-05-21-16:23:25,087 [main]  [com.njupt.mapper.GroupMapper] [DEBUG] - Cache Hit Ratio [com.njupt.mapper.GroupMapper]: 0.5

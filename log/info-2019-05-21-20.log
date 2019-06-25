@@ -1,0 +1,3 @@
+2019-05-21-20:37:31,125 [main]  [com.njupt.mapper.UserInfoMapper.getUserinfo] [DEBUG] - ==>  Preparing: select * from user_inf where id = ? 
+2019-05-21-20:37:31,179 [main]  [com.njupt.mapper.UserInfoMapper.getUserinfo] [DEBUG] - ==> Parameters: 1(Integer)
+2019-05-21-20:37:31,220 [main]  [com.njupt.mapper.UserInfoMapper.getUserinfo] [DEBUG] - <==      Total: 1

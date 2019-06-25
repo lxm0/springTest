@@ -1,0 +1,8 @@
+2019-05-16-16:30:22,788 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-16:30:23,727 [main]  [com.njupt.mapper.GroupMapper.select] [DEBUG] - ==>  Preparing: select * from user_inf where id = ? 
+2019-05-16-16:30:23,773 [main]  [com.njupt.mapper.GroupMapper.select] [DEBUG] - ==> Parameters: 1(Integer)
+2019-05-16-16:30:23,833 [main]  [com.njupt.mapper.GroupMapper.select] [DEBUG] - <==      Total: 1
+2019-05-16-16:31:15,353 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-16:56:04,416 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-16:57:32,696 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-16:59:47,557 [main]  [org.junit.Test] [INFO] - 这是调试信息

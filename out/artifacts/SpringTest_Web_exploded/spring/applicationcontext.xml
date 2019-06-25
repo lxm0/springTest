@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        " >
+    <context:property-placeholder location="classpath:*.properties" />
+    <bean id="person" class="com.njupt.bean.Person">
+        <property name="name" value="cat"></property>
+    </bean>
+    <import resource="*-aop.xml"/>
+
+    <context:component-scan base-package="com.njupt.service"/>
+    <context:component-scan base-package="com.njupt.dao"/>
+    <!--开启基于注解版的AOP-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="url" value="jdbc:mysql://localhost:3306/ssm"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+    </bean>
+    <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="datasource"/>
+        <!--<property name="configLocation" value="classpath:mybatis.xml"/>-->
+        <property name="mapperLocations" value="mapper/**/*.xml" />
+
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.njupt.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="factory"/>
+    </bean>
+
+
+
+</beans>

@@ -1,0 +1,37 @@
+2019-05-16-17:00:03,609 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:00:29,894 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:00:40,707 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:02:39,768 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:02:40,684 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ?) 
+2019-05-16-17:02:40,733 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: ad(String)
+2019-05-16-17:04:38,477 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:08:42,463 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:09:09,549 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:10:33,009 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:12:14,187 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:12:25,826 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:12:26,846 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ?) 
+2019-05-16-17:12:26,897 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: %ad%(String)
+2019-05-16-17:13:59,516 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:14:00,580 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ?) 
+2019-05-16-17:14:00,620 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-16-17:14:36,304 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:14:37,393 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-16-17:14:37,440 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-16-17:15:33,446 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:15:34,432 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-16-17:15:34,476 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-16-17:15:34,509 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - <==      Total: 1
+2019-05-16-17:15:54,550 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:15:55,586 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-16-17:15:55,628 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - ==> Parameters: %%(String)
+2019-05-16-17:15:55,655 [main]  [com.njupt.mapper.GroupMapper.test] [DEBUG] - <==      Total: 2
+2019-05-16-17:18:09,123 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:19:40,185 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:19:41,559 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-16-17:19:41,618 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: es(String)
+2019-05-16-17:19:41,646 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 0
+2019-05-16-17:19:58,110 [main]  [org.junit.Test] [INFO] - 这是调试信息
+2019-05-16-17:19:59,256 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==>  Preparing: select * from user_inf where uname LIKE ? 
+2019-05-16-17:19:59,317 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - ==> Parameters: %es%(String)
+2019-05-16-17:19:59,347 [main]  [com.njupt.mapper.GroupMapper.testbind] [DEBUG] - <==      Total: 1

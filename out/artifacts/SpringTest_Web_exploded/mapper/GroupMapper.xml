@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.njupt.mapper.GroupMapper" >
+  <cache readOnly="true"/>
+  <resultMap id="userinfoMap" type="com.njupt.pojo.UserInfo">
+    <id property="id" column="id"/>
+    <result property="uname" column="uname"/>
+    <result property="passwd" column="passwd"/>
+    <result property="gentle" column="gentle"/>
+    <result property="email" column="email"/>
+    <result property="city" column="city"/>
+  </resultMap>
+  <select id="select" resultMap="userinfoMap" parameterType="int">
+    select * from user_inf where id = #{id}
+  </select>
+  <select id="selectByname" resultType="com.njupt.pojo.UserInfo" parameterType="String">
+    select * from user_inf where uname LIKE concat(concat('%',#{name}),'%')
+  </select>
+  <select id="test" resultType="com.njupt.pojo.UserInfo" parameterType="com.njupt.pojo.UserInfo">
+    <bind name="uname" value="'%'+uname+'%'"></bind>
+    select * from user_inf where uname LIKE #{uname}
+  </select>
+  <select id="testbind" resultType="com.njupt.pojo.UserInfo" >
+    <bind name="name" value="'%'+_parameter+'%'"></bind>
+    select * from user_inf where uname LIKE #{name}
+  </select>
+
+</mapper>
